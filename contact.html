@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Using jQuery to create contact cards">
+	<title>Contact Cards</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="contact.css" />
+	<script>
+		$(document).ready(function(){
+			
+		});
+	</script>
+</head>
+<body>
+	<div id='main-content'>
+		<div id='input-details'>
+			<form>	
+				<table>
+					<tbody>
+						<tr>
+							<td>First name:</td>
+							<td><input type="text" name='first_name'></td>
+						</tr>
+						<tr>
+							<td>Last name:</td>
+							<td><input type="text" name='last_name'></td>
+						</tr>
+						<tr>
+							<td><br><br><br>Description:</td>
+						</tr>
+						<tr>
+							<td><textarea name='description1' rows='5'></textarea></td>
+						</tr>
+						<tr>
+							<td><input type="submit" value='Add User'></td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+		<div id='display-details'>
+			<!-- contact boxes will go in here -->
+		</div>
+	</div>
+</body>
+</html>
